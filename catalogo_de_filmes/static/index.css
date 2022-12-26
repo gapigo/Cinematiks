@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    300deg,
+    #25172a,
+    #391f3c,
+    #4e254d,
+    #602a56,
+    #732e5b,
+    #85305b,
+    #973156,
+    #a9314a
+  );
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header,
+main,
+footer {
+  max-width: 1200px;
+}
